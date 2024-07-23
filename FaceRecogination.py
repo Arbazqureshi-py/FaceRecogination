@@ -1,7 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
-face_cap=cv2.CascadeClassifier("C:/Users/rs153/AppData/Local/Programs/Python/Python312/Lib/site-packages/cv2/data/haarcascade_fullbody.xml")
+face_cap=cv2.CascadeClassifier("C:/Users/rs153/AppData/Local/Programs/Python/Python312/Lib/site-packages/cv2/data/haarcascade_frontalcatface.xml")
 
 video_cap= cv2.VideoCapture(0)
 
